@@ -52,7 +52,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.extension_library=libqti-perfd-client.so \
     persist.radio.apm_sim_not_pwdn=1 \
     persist.radio.sib16_support=1 \
-    ro.sf.lcd_density=320
+    ro.sf.lcd_density=320 \
+    persist.sys.language=zh \
+    persist.sys.country=CN
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapgrowthlimit=128m \
