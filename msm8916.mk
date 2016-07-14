@@ -160,6 +160,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.gps.qc_nlp_in_use=1 \
+    persist.loc.nlp_name=com.qualcomm.location \
     ro.gps.agps_provider=1
 
 # IRSC
@@ -252,6 +253,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libqsap_sdk \
     libQWiFiSoftApCfg \
+    libwcnss_qmi \
     libwpa_client \
     hostapd \
     dhcpcd.conf \
