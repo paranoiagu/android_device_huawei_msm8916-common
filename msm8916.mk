@@ -111,10 +111,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    mm-qcamera-app \
     camera.msm8916 \
-    libmmjpeg_interface \
-    libqomx_core \
     Snap
 
 # Charger
